@@ -252,7 +252,7 @@ def fetch_movies(query=None):
 
 @dp.message_handler(commands=["help"], state="*")
 async def panel(message: types.Message, state: FSMContext):
-    await message.answer("<b>Botni ishga tushirish - /start\nAdmin bilan bog'lanish - @python_chi</b>",parse_mode="html")
+    await message.answer("<b>Botni ishga tushirish - /start\nAdmin bilan bog'lanish - @ar7_admin</b>",parse_mode="html")
     await state.finish()
 
 #panel
