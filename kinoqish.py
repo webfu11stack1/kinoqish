@@ -1700,10 +1700,7 @@ async def confirm_premium_callback(callback: CallbackQuery):
                 f"📅 *Boshlanish vaqti:* {start_date.strftime('%d.%m.%Y %H:%M')}\n"
                 f"📅 *Tugash vaqti:* {end_date.strftime('%d.%m.%Y %H:%M')}\n"
                 f"⏳ *Muddati:* 30 kun\n\n"
-                f"✨ *Endi siz:*
-                • Kanallarga obunasiz foydalanishingiz mumkin
-                • Reklamasiz tomosha qilishingiz mumkin
-                • Tezkor yuklab olishingiz mumkin\n\n"
+                f"✨ *Endi siz:* \n• Kanallarga obunasiz foydalanishingiz mumkin \n• Reklamasiz tomosha qilishingiz mumkin \n• Tezkor yuklab olishingiz mumkin\n\n"
                 f"🤖 Botni qayta ishga tushiring: /start",
                 parse_mode="Markdown"
             )
